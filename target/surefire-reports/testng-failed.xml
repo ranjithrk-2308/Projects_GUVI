@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.TC_005_InCart_TestCase">
+        <methods>
+          <include name="IncartTC"/>
+          <include name="reportinitialization"/>
+          <include name="testdetails"/>
+        </methods>
+      </class> <!-- Tests.TC_005_InCart_TestCase -->
+      <class name="Tests.TC_004_AddSonylapToCart_Test">
+        <methods>
+          <include name="addsonylaptocartTestcase"/>
+          <include name="reportinitialization"/>
+          <include name="testdetails"/>
+        </methods>
+      </class> <!-- Tests.TC_004_AddSonylapToCart_Test -->
+      <class name="Tests.TC_001_SignUp_Test">
+        <methods>
+          <include name="reportinitialization"/>
+          <include name="testdetails"/>
+          <include name="SignUpTestCase001"/>
+        </methods>
+      </class> <!-- Tests.TC_001_SignUp_Test -->
+      <class name="Tests.TC_003_HeadingsCheckTest">
+        <methods>
+          <include name="reportinitialization"/>
+          <include name="headingchecktestcase"/>
+          <include name="testdetails"/>
+        </methods>
+      </class> <!-- Tests.TC_003_HeadingsCheckTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
