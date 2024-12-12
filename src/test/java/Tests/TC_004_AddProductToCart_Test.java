@@ -8,8 +8,8 @@ import Base.DemoBlazeSpecs;
 import Pages.ClickNavigationDemoBlaze;
 import Pages.ProductsSwitchScreen;
 
-public class TC_004_AddSonylapToCart_Test extends DemoBlazeSpecs {
-@Test (priority = 4)
+public class TC_004_AddProductToCart_Test extends DemoBlazeSpecs {
+@Test  (priority = 3)
 	public  void  addsonylaptocartTestcase () throws  InterruptedException {
 		
 		ClickNavigationDemoBlaze addtocart = new ClickNavigationDemoBlaze();
@@ -21,7 +21,6 @@ public class TC_004_AddSonylapToCart_Test extends DemoBlazeSpecs {
 		Thread.sleep(3000);
 		
 		addtocart.productclick()
-		.addtocart()
-		.DemoBlazeClose();
+		.addtocart();
 		}
 }

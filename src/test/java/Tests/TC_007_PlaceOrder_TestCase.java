@@ -1,15 +1,16 @@
 package Tests;
 
 import java.io.IOException;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import Base.DemoBlazeSpecs;
 import Pages.ClickNavigationDemoBlaze;
 
 public class TC_007_PlaceOrder_TestCase extends DemoBlazeSpecs{
-	@Test (priority = 7)
+	
+	@Test (priority = 5)
 	public void PlaceOrderTestCase () throws IOException, InterruptedException {
 		
-		readfile();
 		
 		ClickNavigationDemoBlaze placeorder = new ClickNavigationDemoBlaze();
 		placeorder.loginclick()

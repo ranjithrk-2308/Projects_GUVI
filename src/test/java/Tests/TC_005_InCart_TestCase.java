@@ -9,7 +9,7 @@ import Pages.ClickNavigationDemoBlaze;
 
 public class TC_005_InCart_TestCase extends DemoBlazeSpecs{
 
-	@Test (priority =5)
+	@Test  (priority = 4)
 	public void IncartTC () throws IOException, InterruptedException {
 		
 		
@@ -18,14 +18,7 @@ public class TC_005_InCart_TestCase extends DemoBlazeSpecs{
 		.loginusername(prop.getProperty("lusername"))
 		.loginpassword(prop.getProperty("lpassword"))
 		.loginbuttonclick();
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		incart.clickingcart()
-		.DemoBlazeClose();
-		
+	Thread.sleep(3000);
+		incart.clickingcart();
 	}
 }

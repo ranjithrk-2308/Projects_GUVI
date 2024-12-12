@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Tests.TC_003_WelcomeUser_TestCase"/>
-      <class name="Tests.TC_004_AddSonylapToCart_Test"/>
+      <class name="Tests.TC_004_AddProductToCart_Test"/>
       <class name="Tests.TC_005_InCart_TestCase"/>
       <class name="Tests.TC_007_PlaceOrder_TestCase"/>
       <class name="Tests.TC_006_DeletingItemFromCart_TestCase"/>

@@ -6,7 +6,7 @@ import Pages.ClickNavigationDemoBlaze;
 
 public class TC_003_HeadingsCheckTest extends DemoBlazeSpecs{
 	
-	@Test (priority = 3)
+	@Test  (priority = 1) 
 	public void headingchecktestcase () throws IOException {
 		
 	ClickNavigationDemoBlaze headDB = new ClickNavigationDemoBlaze();

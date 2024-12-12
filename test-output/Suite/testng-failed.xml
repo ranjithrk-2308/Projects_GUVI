@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Tests.TC_006_DeletingItemFromCart_TestCase">
+      <class name="Tests.TC_003_HeadingsCheckTest">
         <methods>
-          <include name="deletingitemtestCase"/>
           <include name="DemoBlazeLaunch"/>
+          <include name="headingchecktestcase"/>
           <include name="fileread"/>
           <include name="DemoBlazeClose"/>
         </methods>
-      </class> <!-- Tests.TC_006_DeletingItemFromCart_TestCase -->
+      </class> <!-- Tests.TC_003_HeadingsCheckTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -4,7 +4,7 @@ import Base.DemoBlazeSpecs;
 import Pages.ClickNavigationDemoBlaze;
 
 public class TC_003_WelcomeUser_TestCase extends DemoBlazeSpecs {
-	@Test
+	@Test (priority = 2) 
 	public void welcomecheck () throws InterruptedException {
 		
 		ClickNavigationDemoBlaze welcome = new ClickNavigationDemoBlaze();

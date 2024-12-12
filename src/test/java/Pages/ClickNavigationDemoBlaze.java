@@ -12,9 +12,6 @@ import Base.DemoBlazeSpecs;
 
 public class ClickNavigationDemoBlaze extends DemoBlazeSpecs {
 	
-	public void ClickNavigationDemoBlaze (WebDriver driver) {
-		this.driver=driver;
-	}
 	// Return to Sign up button Check :
 	
 	public SignupButtonCheck signupbutton () {
@@ -71,6 +68,20 @@ public class ClickNavigationDemoBlaze extends DemoBlazeSpecs {
 	public logout sleepforlogout () throws InterruptedException {
 		Thread.sleep(3000);
 		return new logout();
+	}
+public Deletingitemincart addprodtodelete () throws InterruptedException {
+		
+		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Samsung galaxy s6')]")));
+		driver.findElement(By.xpath("//a[contains(text(),'Samsung galaxy s6')]")).click();
+		Thread.sleep(3000);
+		
+		driver.findElement(By.xpath("//a[@onclick='addToCart(1)']")).click();
+		
+		Thread.sleep(2000);
+		driver.switchTo().alert().accept();
+		
+		return new Deletingitemincart();
 	}
 	
 }
