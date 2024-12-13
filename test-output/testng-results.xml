@@ -1,29 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="12" total="25" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T19:47:51 IST" name="Default suite" finished-at="2024-12-12T19:48:20 IST" duration-ms="29173">
+  <suite started-at="2024-12-13T14:07:17 IST" name="Suite" finished-at="2024-12-13T14:09:40 IST" duration-ms="142755">
     <groups>
     </groups>
-    <test started-at="2024-12-12T19:47:51 IST" name="Default test" finished-at="2024-12-12T19:48:20 IST" duration-ms="29173">
-      <class name="Tests.TC_007_PlaceOrder_TestCase">
-        <test-method is-config="true" signature="fileread()[pri:0, instance:Tests.TC_007_PlaceOrder_TestCase@7cc0cdad]" started-at="2024-12-12T19:47:51 IST" name="fileread" finished-at="2024-12-12T19:47:51 IST" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fileread -->
-        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_007_PlaceOrder_TestCase@7cc0cdad]" started-at="2024-12-12T19:47:51 IST" name="DemoBlazeLaunch" finished-at="2024-12-12T19:48:06 IST" duration-ms="14472" status="PASS">
+    <test started-at="2024-12-13T14:07:17 IST" name="Test" finished-at="2024-12-13T14:09:40 IST" duration-ms="142755">
+      <class name="Tests.TC_002_Login_Test">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_002_Login_Test@33d512c1]" started-at="2024-12-13T14:07:49 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:07:54 IST" duration-ms="5641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DemoBlazeLaunch -->
-        <test-method signature="PlaceOrderTestCase()[pri:5, instance:Tests.TC_007_PlaceOrder_TestCase@7cc0cdad]" started-at="2024-12-12T19:48:06 IST" name="PlaceOrderTestCase" finished-at="2024-12-12T19:48:19 IST" duration-ms="13722" status="PASS">
+        <test-method signature="LoginTestCase002()[pri:5, instance:Tests.TC_002_Login_Test@33d512c1]" started-at="2024-12-13T14:07:54 IST" name="LoginTestCase002" finished-at="2024-12-13T14:07:55 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase002 -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_002_Login_Test@33d512c1]" started-at="2024-12-13T14:07:55 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:07:55 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_002_Login_Test -->
+      <class name="Tests.TC_001_SignUpButtonCheck_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_001_SignUpButtonCheck_TestCase@3590fc5b]" started-at="2024-12-13T14:07:31 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:07:35 IST" duration-ms="4234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="signupbuttonchecktestcase()[pri:2, instance:Tests.TC_001_SignUpButtonCheck_TestCase@3590fc5b]" started-at="2024-12-13T14:07:35 IST" name="signupbuttonchecktestcase" finished-at="2024-12-13T14:07:37 IST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupbuttonchecktestcase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_001_SignUpButtonCheck_TestCase@3590fc5b]" started-at="2024-12-13T14:07:37 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:07:37 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_001_SignUpButtonCheck_TestCase -->
+      <class name="Tests.TC_002_LoginButtonCheck_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_002_LoginButtonCheck_TestCase@515c6049]" started-at="2024-12-13T14:07:55 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:08:00 IST" duration-ms="5110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="loginbuttoncheck()[pri:6, instance:Tests.TC_002_LoginButtonCheck_TestCase@515c6049]" started-at="2024-12-13T14:08:00 IST" name="loginbuttoncheck" finished-at="2024-12-13T14:08:02 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbuttoncheck -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_002_LoginButtonCheck_TestCase@515c6049]" started-at="2024-12-13T14:08:02 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:08:02 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_002_LoginButtonCheck_TestCase -->
+      <class name="Tests.TC_006_DeletingItemFromCart_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_006_DeletingItemFromCart_TestCase@30c15d8b]" started-at="2024-12-13T14:08:59 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:09:04 IST" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="deletingitemtestCase()[pri:7, instance:Tests.TC_006_DeletingItemFromCart_TestCase@30c15d8b]" started-at="2024-12-13T14:09:04 IST" name="deletingitemtestCase" finished-at="2024-12-13T14:09:25 IST" duration-ms="20754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingitemtestCase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_006_DeletingItemFromCart_TestCase@30c15d8b]" started-at="2024-12-13T14:09:25 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:09:25 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_006_DeletingItemFromCart_TestCase -->
+      <class name="Tests.TC_003_HeadingsCheckTest">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_003_HeadingsCheckTest@639c2c1d]" started-at="2024-12-13T14:08:02 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:08:07 IST" duration-ms="5247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="headingchecktestcase()[pri:1, instance:Tests.TC_003_HeadingsCheckTest@639c2c1d]" started-at="2024-12-13T14:08:07 IST" name="headingchecktestcase" finished-at="2024-12-13T14:08:13 IST" duration-ms="5152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headingchecktestcase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_003_HeadingsCheckTest@639c2c1d]" started-at="2024-12-13T14:08:13 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:08:13 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_003_HeadingsCheckTest -->
+      <class name="Tests.TC_008_LogOut_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_008_LogOut_TestCase@2d3379b4]" started-at="2024-12-13T14:08:49 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:08:54 IST" duration-ms="5120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="LogOutTestCase()[pri:6, instance:Tests.TC_008_LogOut_TestCase@2d3379b4]" started-at="2024-12-13T14:08:54 IST" name="LogOutTestCase" finished-at="2024-12-13T14:08:59 IST" duration-ms="5024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTestCase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_008_LogOut_TestCase@2d3379b4]" started-at="2024-12-13T14:08:59 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:08:59 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_008_LogOut_TestCase -->
+      <class name="Tests.TC_001_SignUp_Test">
+        <test-method is-config="true" signature="fileread()[pri:0, instance:Tests.TC_001_SignUp_Test@71d44a3]" started-at="2024-12-13T14:07:17 IST" name="fileread" finished-at="2024-12-13T14:07:17 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileread -->
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_001_SignUp_Test@71d44a3]" started-at="2024-12-13T14:07:17 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:07:23 IST" duration-ms="5506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="SignUpTestCase001()[pri:1, instance:Tests.TC_001_SignUp_Test@71d44a3]" started-at="2024-12-13T14:07:23 IST" name="SignUpTestCase001" finished-at="2024-12-13T14:07:23 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpTestCase001 -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_001_SignUp_Test@71d44a3]" started-at="2024-12-13T14:07:23 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:07:23 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_001_SignUp_Test -->
+      <class name="Tests.TC_004_AddProductToCart_Test">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_004_AddProductToCart_Test@74235045]" started-at="2024-12-13T14:08:23 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:08:28 IST" duration-ms="4859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="addsonylaptocartTestcase()[pri:3, instance:Tests.TC_004_AddProductToCart_Test@74235045]" started-at="2024-12-13T14:08:28 IST" name="addsonylaptocartTestcase" finished-at="2024-12-13T14:08:36 IST" duration-ms="7614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addsonylaptocartTestcase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_004_AddProductToCart_Test@74235045]" started-at="2024-12-13T14:08:36 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:08:36 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_004_AddProductToCart_Test -->
+      <class name="Tests.TC_003_WelcomeUser_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_003_WelcomeUser_TestCase@765d7657]" started-at="2024-12-13T14:08:13 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:08:19 IST" duration-ms="6291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="welcomecheck()[pri:2, instance:Tests.TC_003_WelcomeUser_TestCase@765d7657]" started-at="2024-12-13T14:08:19 IST" name="welcomecheck" finished-at="2024-12-13T14:08:23 IST" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomecheck -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_003_WelcomeUser_TestCase@765d7657]" started-at="2024-12-13T14:08:23 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:08:23 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_003_WelcomeUser_TestCase -->
+      <class name="Tests.TC_001_SignupPopUpCheck_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_001_SignupPopUpCheck_TestCase@41d477ed]" started-at="2024-12-13T14:07:23 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:07:28 IST" duration-ms="5013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="opupcheckTestCase()[pri:3, instance:Tests.TC_001_SignupPopUpCheck_TestCase@41d477ed]" started-at="2024-12-13T14:07:28 IST" name="opupcheckTestCase" finished-at="2024-12-13T14:07:31 IST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opupcheckTestCase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_001_SignupPopUpCheck_TestCase@41d477ed]" started-at="2024-12-13T14:07:31 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:07:31 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_001_SignupPopUpCheck_TestCase -->
+      <class name="Tests.TC_005_InCart_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_005_InCart_TestCase@618b19ad]" started-at="2024-12-13T14:08:36 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:08:41 IST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="IncartTC()[pri:4, instance:Tests.TC_005_InCart_TestCase@618b19ad]" started-at="2024-12-13T14:08:41 IST" name="IncartTC" finished-at="2024-12-13T14:08:48 IST" duration-ms="7190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncartTC -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_005_InCart_TestCase@618b19ad]" started-at="2024-12-13T14:08:48 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:08:49 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_005_InCart_TestCase -->
+      <class name="Tests.TC_007_PlaceOrder_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_007_PlaceOrder_TestCase@5e0e82ae]" started-at="2024-12-13T14:09:25 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:09:31 IST" duration-ms="5957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="PlaceOrderTestCase()[pri:5, instance:Tests.TC_007_PlaceOrder_TestCase@5e0e82ae]" started-at="2024-12-13T14:09:31 IST" name="PlaceOrderTestCase" finished-at="2024-12-13T14:09:40 IST" duration-ms="8384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PlaceOrderTestCase -->
-        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_007_PlaceOrder_TestCase@7cc0cdad]" started-at="2024-12-12T19:48:19 IST" name="DemoBlazeClose" finished-at="2024-12-12T19:48:20 IST" duration-ms="887" status="PASS">
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_007_PlaceOrder_TestCase@5e0e82ae]" started-at="2024-12-13T14:09:40 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:09:40 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DemoBlazeClose -->
       </class> <!-- Tests.TC_007_PlaceOrder_TestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Tests.TC_002_Login_SwitchTest_TestCase">
+        <test-method is-config="true" signature="DemoBlazeLaunch()[pri:0, instance:Tests.TC_002_Login_SwitchTest_TestCase@397fbdb]" started-at="2024-12-13T14:07:37 IST" name="DemoBlazeLaunch" finished-at="2024-12-13T14:07:44 IST" duration-ms="6594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeLaunch -->
+        <test-method signature="switchtestTestCase()[pri:4, instance:Tests.TC_002_Login_SwitchTest_TestCase@397fbdb]" started-at="2024-12-13T14:07:44 IST" name="switchtestTestCase" finished-at="2024-12-13T14:07:48 IST" duration-ms="4509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchtestTestCase -->
+        <test-method is-config="true" signature="DemoBlazeClose()[pri:0, instance:Tests.TC_002_Login_SwitchTest_TestCase@397fbdb]" started-at="2024-12-13T14:07:48 IST" name="DemoBlazeClose" finished-at="2024-12-13T14:07:49 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeClose -->
+      </class> <!-- Tests.TC_002_Login_SwitchTest_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

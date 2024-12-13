@@ -14,8 +14,6 @@ public class TC_001_SignUp_Test extends DemoBlazeSpecs{
 	DB.SignUpClick()
 	.Username(prop.getProperty("username"))
 	.password(prop.getProperty("password"))
-	.signupbutton()
-	.DemoBlazeClose();
-	
+	.signupbutton();
 	}
 }
